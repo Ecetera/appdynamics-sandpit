@@ -1,0 +1,8 @@
+C:\code repository\web-services\DesktopConsumeCreditCardService\bin\Release\DesktopConsumeCreditCardService.exe.config
+C:\code repository\web-services\DesktopConsumeCreditCardService\bin\Release\DesktopConsumeCreditCardService.exe
+C:\code repository\web-services\DesktopConsumeCreditCardService\bin\Release\DesktopConsumeCreditCardService.pdb
+C:\code repository\web-services\DesktopConsumeCreditCardService\obj\Release\DesktopConsumeCreditCardService.Form1.resources
+C:\code repository\web-services\DesktopConsumeCreditCardService\obj\Release\DesktopConsumeCreditCardService.Properties.Resources.resources
+C:\code repository\web-services\DesktopConsumeCreditCardService\obj\Release\DesktopConsumeCreditCardService.csproj.GenerateResource.Cache
+C:\code repository\web-services\DesktopConsumeCreditCardService\obj\Release\DesktopConsumeCreditCardService.exe
+C:\code repository\web-services\DesktopConsumeCreditCardService\obj\Release\DesktopConsumeCreditCardService.pdb

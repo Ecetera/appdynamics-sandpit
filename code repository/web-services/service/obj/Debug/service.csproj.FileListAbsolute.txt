@@ -1,0 +1,28 @@
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\bin\service.exe.config
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\bin\service.exe
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\bin\service.pdb
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\obj\Debug\service.exe
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\obj\Debug\service.pdb
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\service\bin\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\service.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\obj\Debug\service.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\obj\Debug\service.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\service.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\service.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\log4net.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\service.exe.config
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\service.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\service.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\service.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\service.pdb

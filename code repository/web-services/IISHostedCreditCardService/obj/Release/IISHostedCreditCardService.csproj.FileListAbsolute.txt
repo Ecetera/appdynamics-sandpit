@@ -1,0 +1,45 @@
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.pdb
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\log4net.dll
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\AppDynamics\CS\IISHostedCreditCardService\bin\log4net.xml
+C:\AppDynamics\CS\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.dll
+C:\AppDynamics\CS\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.pdb
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\log4net.dll
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\bin\log4net.xml
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.dll
+C:\AppDynamics\CS - Copy\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.pdb
+C:\web-services\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\web-services\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\web-services\IISHostedCreditCardService\bin\log4net.dll
+C:\web-services\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\web-services\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\web-services\IISHostedCreditCardService\bin\log4net.xml
+C:\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.dll
+C:\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.pdb
+C:\code repository\web-services\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\code repository\web-services\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\code repository\web-services\IISHostedCreditCardService\bin\log4net.dll
+C:\code repository\web-services\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\code repository\web-services\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\code repository\web-services\IISHostedCreditCardService\bin\log4net.xml
+C:\code repository\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.dll
+C:\code repository\web-services\IISHostedCreditCardService\obj\Release\IISHostedCreditCardService.pdb

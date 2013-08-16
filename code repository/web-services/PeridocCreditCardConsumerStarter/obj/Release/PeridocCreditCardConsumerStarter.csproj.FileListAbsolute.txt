@@ -1,0 +1,9 @@
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\bin\Release\PeridocCreditCardConsumerStarter.exe.config
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\bin\Release\PeridocCreditCardConsumerStarter.exe
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\bin\Release\PeridocCreditCardConsumerStarter.pdb
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.Form1.resources
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.Properties.Resources.resources
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.csproj.GenerateResource.Cache
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.exe
+C:\code repository\web-services\PeridocCreditCardConsumerStarter\obj\Release\PeridocCreditCardConsumerStarter.pdb

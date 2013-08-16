@@ -1,0 +1,10 @@
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.exe.config
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\SelfHostedCreditCardService.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Debug\SelfHostedCreditCardService.pdb

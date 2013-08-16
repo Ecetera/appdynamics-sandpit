@@ -1,0 +1,15 @@
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\MultiColumnList.exe.config
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\MultiColumnList.exe
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\MultiColumnList.pdb
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\Window1.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\App.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList_MarkupCompile.cache
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList_MarkupCompile.lref
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\Window1.baml
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.g.resources
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.Properties.Resources.resources
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.csproj.GenerateResource.Cache
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.exe
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.pdb
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.csprojResolveAssemblyReference.cache

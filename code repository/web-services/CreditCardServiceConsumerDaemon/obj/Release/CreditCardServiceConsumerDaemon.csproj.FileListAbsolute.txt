@@ -1,0 +1,8 @@
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\bin\Release\CreditCardServiceConsumerDaemon.exe.config
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\bin\Release\CreditCardServiceConsumerDaemon.exe
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\bin\Release\CreditCardServiceConsumerDaemon.pdb
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\obj\Release\CreditCardServiceConsumerDaemon.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\obj\Release\CreditCardServiceConsumerDaemon.exe
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\obj\Release\CreditCardServiceConsumerDaemon.pdb
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\bin\Release\CreditCardUtility.dll
+C:\code repository\web-services\CreditCardServiceConsumerDaemon\bin\Release\CreditCardUtility.pdb

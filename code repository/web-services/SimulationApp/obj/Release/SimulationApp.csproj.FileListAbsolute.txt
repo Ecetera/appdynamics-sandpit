@@ -1,0 +1,15 @@
+C:\code repository\web-services\SimulationApp\bin\Release\SimulationApp.exe.config
+C:\code repository\web-services\SimulationApp\bin\Release\SimulationApp.exe
+C:\code repository\web-services\SimulationApp\bin\Release\SimulationApp.pdb
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\SimulationApp\obj\Release\MainWindow.baml
+C:\code repository\web-services\SimulationApp\obj\Release\MainWindow.g.cs
+C:\code repository\web-services\SimulationApp\obj\Release\App.g.cs
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp_MarkupCompile.cache
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.g.resources
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.Properties.Resources.resources
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.csproj.GenerateResource.Cache
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.exe
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp.pdb
+C:\code repository\web-services\SimulationApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\code repository\web-services\SimulationApp\obj\Release\SimulationApp_MarkupCompile.lref

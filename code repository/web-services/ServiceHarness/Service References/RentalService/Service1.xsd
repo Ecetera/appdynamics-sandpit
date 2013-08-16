@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/VideoRentalService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/VideoRentalService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfSCustomer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SCustomer" nillable="true" type="tns:SCustomer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSCustomer" nillable="true" type="tns:ArrayOfSCustomer" />
+  <xs:complexType name="SCustomer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="active" type="xs:boolean" />
+      <xs:element minOccurs="0" name="address_id" type="xs:int" />
+      <xs:element minOccurs="0" name="create_date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="customer_id" type="xs:int" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="first_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="last_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="last_update" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="store_id" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SCustomer" nillable="true" type="tns:SCustomer" />
+  <xs:complexType name="ArrayOfSRental">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SRental" nillable="true" type="tns:SRental" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSRental" nillable="true" type="tns:ArrayOfSRental" />
+  <xs:complexType name="SRental">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Filmtitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customer_id" type="xs:int" />
+      <xs:element minOccurs="0" name="inventory_id" type="xs:int" />
+      <xs:element minOccurs="0" name="last_update" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="rental_date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="rental_id" type="xs:int" />
+      <xs:element minOccurs="0" name="return_date" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="staff_id" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SRental" nillable="true" type="tns:SRental" />
+  <xs:complexType name="ArrayOfSPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SPayment" nillable="true" type="tns:SPayment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSPayment" nillable="true" type="tns:ArrayOfSPayment" />
+  <xs:complexType name="SPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="customer_id" type="xs:int" />
+      <xs:element minOccurs="0" name="filmtitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="inventory_id" type="xs:int" />
+      <xs:element minOccurs="0" name="last_update" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="payment_date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="payment_id" type="xs:int" />
+      <xs:element minOccurs="0" name="rental_id" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="staff_id" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SPayment" nillable="true" type="tns:SPayment" />
+  <xs:complexType name="ArrayOfCategorySale">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CategorySale" nillable="true" type="tns:CategorySale" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategorySale" nillable="true" type="tns:ArrayOfCategorySale" />
+  <xs:complexType name="CategorySale">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="total_sales" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CategorySale" nillable="true" type="tns:CategorySale" />
+</xs:schema>

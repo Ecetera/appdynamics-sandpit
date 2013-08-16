@@ -1,0 +1,4 @@
+C:\code repository\web-services\CreditCardUtility\bin\Release\CreditCardUtility.dll
+C:\code repository\web-services\CreditCardUtility\bin\Release\CreditCardUtility.pdb
+C:\code repository\web-services\CreditCardUtility\obj\Release\CreditCardUtility.dll
+C:\code repository\web-services\CreditCardUtility\obj\Release\CreditCardUtility.pdb

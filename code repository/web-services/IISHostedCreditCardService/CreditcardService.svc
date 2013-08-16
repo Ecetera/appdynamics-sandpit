@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Ecetera.AppDynamics.IISService.CreditCardService" CodeBehind="CreditcardService.svc.cs" %>

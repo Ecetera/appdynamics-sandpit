@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2456adf9-cf93-4117-b81f-1c8d1914a199" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CreditCardService.wsdl" MetadataType="Wsdl" ID="f0559e52-6729-4a07-adb4-62dde7868a7d" SourceId="1" SourceUrl="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?wsdl" />
+    <MetadataFile FileName="CreditCardService1.wsdl" MetadataType="Wsdl" ID="02c9d650-a58b-4baa-8d5a-e8da8959c685" SourceId="1" SourceUrl="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?wsdl=wsdl0" />
+    <MetadataFile FileName="CreditCardService.xsd" MetadataType="Schema" ID="81bd385c-8f52-4c0e-836b-365931ef2a7e" SourceId="1" SourceUrl="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?xsd=xsd1" />
+    <MetadataFile FileName="CreditCardService.disco" MetadataType="Disco" ID="0b4f73ec-7a4b-4463-9bbb-22c9fc778296" SourceId="1" SourceUrl="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?disco" />
+    <MetadataFile FileName="CreditCardService1.xsd" MetadataType="Schema" ID="e89771ce-bf8d-4777-8a80-8e080234a7cf" SourceId="1" SourceUrl="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

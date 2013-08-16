@@ -1,0 +1,44 @@
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Release\ServiceHarness.exe.config
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Release\ServiceHarness.exe
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Release\ServiceHarness.pdb
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Release\ServiceHarness.exe
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Release\ServiceHarness.pdb
+C:\AppDynamics\CS\ServiceHarness\bin\Release\ServiceHarness.exe.config
+C:\AppDynamics\CS\ServiceHarness\bin\Release\ServiceHarness.exe
+C:\AppDynamics\CS\ServiceHarness\bin\Release\ServiceHarness.pdb
+C:\AppDynamics\CS\ServiceHarness\bin\Release\EntityFramework.dll
+C:\AppDynamics\CS\ServiceHarness\bin\Release\EntityFramework.xml
+C:\AppDynamics\CS\ServiceHarness\obj\x86\Release\ServiceHarness.exe
+C:\AppDynamics\CS\ServiceHarness\obj\x86\Release\ServiceHarness.pdb
+C:\AppDynamics\CS\ServiceHarness\obj\x86\Release\ServiceHarness.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS - Copy\ServiceHarness\bin\Release\ServiceHarness.exe.config
+C:\AppDynamics\CS - Copy\ServiceHarness\obj\x86\Release\ServiceHarness.exe
+C:\AppDynamics\CS - Copy\ServiceHarness\obj\x86\Release\ServiceHarness.pdb
+C:\AppDynamics\CS - Copy\ServiceHarness\bin\Release\ServiceHarness.exe
+C:\AppDynamics\CS - Copy\ServiceHarness\bin\Release\ServiceHarness.pdb
+C:\AppDynamics\CS - Copy\ServiceHarness\bin\Release\EntityFramework.dll
+C:\AppDynamics\CS - Copy\ServiceHarness\bin\Release\EntityFramework.xml
+C:\AppDynamics\CS - Copy\ServiceHarness\obj\x86\Release\ServiceHarness.csprojResolveAssemblyReference.cache
+C:\web-services\ServiceHarness\bin\Release\ServiceHarness.exe.config
+C:\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.exe
+C:\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.pdb
+C:\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.csprojResolveAssemblyReference.cache
+C:\web-services\ServiceHarness\bin\Release\ServiceHarness.exe
+C:\web-services\ServiceHarness\bin\Release\ServiceHarness.pdb
+C:\web-services\ServiceHarness\bin\Release\EntityFramework.dll
+C:\web-services\ServiceHarness\bin\Release\EntityFramework.xml
+C:\code repository\web-services\ServiceHarness\bin\Release\ServiceHarness.exe.config
+C:\code repository\web-services\ServiceHarness\bin\Release\ServiceHarness.exe
+C:\code repository\web-services\ServiceHarness\bin\Release\ServiceHarness.pdb
+C:\code repository\web-services\ServiceHarness\bin\Release\CreditCardUtility.dll
+C:\code repository\web-services\ServiceHarness\bin\Release\EntityFramework.dll
+C:\code repository\web-services\ServiceHarness\bin\Release\MerchantBank.dll
+C:\code repository\web-services\ServiceHarness\bin\Release\log4net.dll
+C:\code repository\web-services\ServiceHarness\bin\Release\CreditCardUtility.pdb
+C:\code repository\web-services\ServiceHarness\bin\Release\MerchantBank.pdb
+C:\code repository\web-services\ServiceHarness\bin\Release\EntityFramework.xml
+C:\code repository\web-services\ServiceHarness\bin\Release\log4net.xml
+C:\code repository\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.exe
+C:\code repository\web-services\ServiceHarness\obj\x86\Release\ServiceHarness.pdb

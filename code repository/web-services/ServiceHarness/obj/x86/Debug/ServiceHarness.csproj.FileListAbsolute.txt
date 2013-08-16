@@ -1,0 +1,6 @@
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Debug\ServiceHarness.exe.config
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Debug\ServiceHarness.exe
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\bin\Debug\ServiceHarness.pdb
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Debug\ServiceHarness.exe
+C:\AppDynamics\WIPSANDBOX\CS\ServiceHarness\obj\x86\Debug\ServiceHarness.pdb

@@ -1,0 +1,7 @@
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\VideoRentalService.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\VideoRentalService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Debug\VideoRentalService.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Debug\VideoRentalService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\log4net.xml

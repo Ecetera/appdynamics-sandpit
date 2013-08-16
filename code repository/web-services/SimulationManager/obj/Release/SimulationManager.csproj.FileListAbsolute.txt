@@ -1,0 +1,5 @@
+C:\code repository\web-services\SimulationManager\bin\Release\SimulationManager.dll
+C:\code repository\web-services\SimulationManager\bin\Release\SimulationManager.pdb
+C:\code repository\web-services\SimulationManager\obj\Release\SimulationManager.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\SimulationManager\obj\Release\SimulationManager.dll
+C:\code repository\web-services\SimulationManager\obj\Release\SimulationManager.pdb

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f07dcbdf-930e-4992-ab20-913742c19fe3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/AppDBank/CreditcardService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CreditCardService.wsdl" MetadataType="Wsdl" ID="a9506ad4-101d-436f-b97c-207850c92a33" SourceId="1" SourceUrl="http://localhost/AppDBank/CreditcardService.svc?wsdl" />
+    <MetadataFile FileName="CreditcardService.xsd" MetadataType="Schema" ID="d5a80688-02d2-487b-b49e-716fa5c31ea1" SourceId="1" SourceUrl="http://localhost/AppDBank/CreditcardService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CreditcardService1.xsd" MetadataType="Schema" ID="6f47b939-4d82-4f9d-ab61-c50c2dabaa5a" SourceId="1" SourceUrl="http://localhost/AppDBank/CreditcardService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,6 @@
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\bin\Debug\SakilaBusinessLogic.dll.config
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\bin\Debug\SakilaBusinessLogic.dll
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\bin\Debug\SakilaBusinessLogic.pdb
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\obj\Debug\SakilaBusinessLogic.dll
+C:\AppDynamics\WIPSANDBOX\CS\SakilaBusinessLogic\obj\Debug\SakilaBusinessLogic.pdb

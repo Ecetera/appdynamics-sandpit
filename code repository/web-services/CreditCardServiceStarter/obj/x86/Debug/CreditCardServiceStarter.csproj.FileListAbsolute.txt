@@ -1,0 +1,18 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\bin\Debug\CreditCardServiceStarter.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\bin\Debug\CreditCardServiceStarter.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.pdb
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\bin\Debug\CreditCardServiceStarter.exe
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\bin\Debug\CreditCardServiceStarter.pdb
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.Form1.resources
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.Properties.Resources.resources
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.exe
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Debug\CreditCardServiceStarter.pdb

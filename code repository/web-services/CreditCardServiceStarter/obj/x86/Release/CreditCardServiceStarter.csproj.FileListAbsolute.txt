@@ -1,0 +1,41 @@
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.pdb
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Form1.resources
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Properties.Resources.resources
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\GenerateResource.read.1.tlog
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\GenerateResource.write.1.tlog
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\WIPSANDBOX\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.pdb
+C:\AppDynamics\CS\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\CS\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.pdb
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Form1.resources
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Properties.Resources.resources
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csproj.GenerateResource.Cache
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\CS\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.pdb
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.pdb
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Form1.resources
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Properties.Resources.resources
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csproj.GenerateResource.Cache
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.exe
+C:\AppDynamics\CS - Copy\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.pdb
+C:\web-services\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.exe
+C:\web-services\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.pdb
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csprojResolveAssemblyReference.cache
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Form1.resources
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Properties.Resources.resources
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csproj.GenerateResource.Cache
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.exe
+C:\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.pdb
+C:\code repository\web-services\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.exe
+C:\code repository\web-services\CreditCardServiceStarter\bin\Release\CreditCardServiceStarter.pdb
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Form1.resources
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.Properties.Resources.resources
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.csproj.GenerateResource.Cache
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.exe
+C:\code repository\web-services\CreditCardServiceStarter\obj\x86\Release\CreditCardServiceStarter.pdb

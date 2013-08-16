@@ -1,0 +1,15 @@
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\SimulationSettingsUI.exe.config
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\SimulationSettingsUI.exe
+C:\code repository\web-services\MultiColumnList\MultiColumnList\bin\Debug\SimulationSettingsUI.pdb
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\Window1.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\App.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI_MarkupCompile.cache
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI_MarkupCompile.lref
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\Window1.baml
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI.g.resources
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\MultiColumnList.Properties.Resources.resources
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI.csproj.GenerateResource.Cache
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI.exe
+C:\code repository\web-services\MultiColumnList\MultiColumnList\obj\Debug\SimulationSettingsUI.pdb

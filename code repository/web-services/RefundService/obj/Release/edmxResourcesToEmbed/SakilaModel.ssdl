@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sakilaModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="sakilaModelStoreContainer">
+    <EntitySet Name="film" EntityType="sakilaModel.Store.film" store:Type="Tables" Schema="sakila" />
+    <EntitySet Name="payment" EntityType="sakilaModel.Store.payment" store:Type="Tables" Schema="sakila" />
+    <EntitySet Name="rental" EntityType="sakilaModel.Store.rental" store:Type="Tables" Schema="sakila" />
+    <EntitySet Name="staff" EntityType="sakilaModel.Store.staff" store:Type="Tables" Schema="sakila" />
+    <AssociationSet Name="fk_payment_rental" Association="sakilaModel.Store.fk_payment_rental">
+      <End Role="rental" EntitySet="rental" />
+      <End Role="payment" EntitySet="payment" />
+    </AssociationSet>
+    <AssociationSet Name="fk_payment_staff" Association="sakilaModel.Store.fk_payment_staff">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="payment" EntitySet="payment" />
+    </AssociationSet>
+    <AssociationSet Name="fk_rental_staff" Association="sakilaModel.Store.fk_rental_staff">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="rental" EntitySet="rental" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="film">
+    <Key>
+      <PropertyRef Name="film_id" />
+    </Key>
+    <Property Name="film_id" Type="usmallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="description" Type="text" />
+    <Property Name="release_year" Type="year" />
+    <Property Name="language_id" Type="utinyint" Nullable="false" />
+    <Property Name="original_language_id" Type="utinyint" />
+    <Property Name="rental_duration" Type="utinyint" Nullable="false" />
+    <Property Name="rental_rate" Type="decimal" Nullable="false" Precision="4" Scale="2" />
+    <Property Name="length" Type="usmallint" />
+    <Property Name="replacement_cost" Type="decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="rating" Type="enum" />
+    <Property Name="special_features" Type="set" />
+    <Property Name="last_update" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="payment_id" />
+    </Key>
+    <Property Name="payment_id" Type="usmallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="customer_id" Type="usmallint" Nullable="false" />
+    <Property Name="staff_id" Type="utinyint" Nullable="false" />
+    <Property Name="rental_id" Type="int" />
+    <Property Name="amount" Type="decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="payment_date" Type="datetime" Nullable="false" />
+    <Property Name="last_update" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="rental">
+    <Key>
+      <PropertyRef Name="rental_id" />
+    </Key>
+    <Property Name="rental_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="rental_date" Type="datetime" Nullable="false" />
+    <Property Name="inventory_id" Type="umediumint" Nullable="false" />
+    <Property Name="customer_id" Type="usmallint" Nullable="false" />
+    <Property Name="return_date" Type="datetime" />
+    <Property Name="staff_id" Type="utinyint" Nullable="false" />
+    <Property Name="last_update" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="staff">
+    <Key>
+      <PropertyRef Name="staff_id" />
+    </Key>
+    <Property Name="staff_id" Type="utinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="last_name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="address_id" Type="usmallint" Nullable="false" />
+    <Property Name="picture" Type="blob" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="store_id" Type="utinyint" Nullable="false" />
+    <Property Name="active" Type="bool" Nullable="false" />
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="16" />
+    <Property Name="password" Type="varchar" MaxLength="40" />
+    <Property Name="last_update" Type="timestamp" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <Association Name="fk_payment_rental">
+    <End Role="rental" Type="sakilaModel.Store.rental" Multiplicity="0..1" />
+    <End Role="payment" Type="sakilaModel.Store.payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rental">
+        <PropertyRef Name="rental_id" />
+      </Principal>
+      <Dependent Role="payment">
+        <PropertyRef Name="rental_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_payment_staff">
+    <End Role="staff" Type="sakilaModel.Store.staff" Multiplicity="1" />
+    <End Role="payment" Type="sakilaModel.Store.payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staff_id" />
+      </Principal>
+      <Dependent Role="payment">
+        <PropertyRef Name="staff_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_rental_staff">
+    <End Role="staff" Type="sakilaModel.Store.staff" Multiplicity="1" />
+    <End Role="rental" Type="sakilaModel.Store.rental" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staff_id" />
+      </Principal>
+      <Dependent Role="rental">
+        <PropertyRef Name="staff_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

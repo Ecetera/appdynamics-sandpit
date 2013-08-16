@@ -1,0 +1,18 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\bin\log4net.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\obj\Debug\IISHostedCreditCardService.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\IISHostedCreditCardService\obj\Debug\IISHostedCreditCardService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\IISHostedCreditCardService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\bin\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Debug\IISHostedCreditCardService.dll
+C:\AppDynamics\WIPSANDBOX\CS\IISHostedCreditCardService\obj\Debug\IISHostedCreditCardService.pdb

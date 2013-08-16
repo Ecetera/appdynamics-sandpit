@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://Ecetera.AppDynamics.Service" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://Ecetera.AppDynamics.Service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Ecetera.AppDynamics.Service/Imports">
+      <xsd:import schemaLocation="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?xsd=xsd0" namespace="http://Ecetera.AppDynamics.Service" />
+      <xsd:import schemaLocation="http://10.0.2.15:9090/AppDynamicsBank/CreditCardService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICreditCardService_AuthoriseAndCharge_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthoriseAndCharge" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_AuthoriseAndCharge_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthoriseAndChargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Authorise_InputMessage">
+    <wsdl:part name="parameters" element="tns:Authorise" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Authorise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthoriseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Credit_InputMessage">
+    <wsdl:part name="parameters" element="tns:Credit" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Credit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Debit_InputMessage">
+    <wsdl:part name="parameters" element="tns:Debit" />
+  </wsdl:message>
+  <wsdl:message name="ICreditCardService_Debit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DebitResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICreditCardService">
+    <wsdl:operation name="AuthoriseAndCharge">
+      <wsdl:input wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/AuthoriseAndCharge" message="tns:ICreditCardService_AuthoriseAndCharge_InputMessage" />
+      <wsdl:output wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/AuthoriseAndChargeResponse" message="tns:ICreditCardService_AuthoriseAndCharge_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Authorise">
+      <wsdl:input wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/Authorise" message="tns:ICreditCardService_Authorise_InputMessage" />
+      <wsdl:output wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/AuthoriseResponse" message="tns:ICreditCardService_Authorise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Credit">
+      <wsdl:input wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/Credit" message="tns:ICreditCardService_Credit_InputMessage" />
+      <wsdl:output wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/CreditResponse" message="tns:ICreditCardService_Credit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Debit">
+      <wsdl:input wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/Debit" message="tns:ICreditCardService_Debit_InputMessage" />
+      <wsdl:output wsaw:Action="http://Ecetera.AppDynamics.Service/ICreditCardService/DebitResponse" message="tns:ICreditCardService_Debit_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

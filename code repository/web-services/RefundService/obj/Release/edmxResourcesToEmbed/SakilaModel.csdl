@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sakilaModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SakilaContext" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="films" EntityType="sakilaModel.film" />
+    <EntitySet Name="payments" EntityType="sakilaModel.payment" />
+    <EntitySet Name="rentals" EntityType="sakilaModel.rental" />
+    <EntitySet Name="staffs" EntityType="sakilaModel.staff" />
+    <AssociationSet Name="fk_payment_rental" Association="sakilaModel.fk_payment_rental">
+      <End Role="rental" EntitySet="rentals" />
+      <End Role="payment" EntitySet="payments" />
+    </AssociationSet>
+    <AssociationSet Name="fk_payment_staff" Association="sakilaModel.fk_payment_staff">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="payment" EntitySet="payments" />
+    </AssociationSet>
+    <AssociationSet Name="fk_rental_staff" Association="sakilaModel.fk_rental_staff">
+      <End Role="staff" EntitySet="staffs" />
+      <End Role="rental" EntitySet="rentals" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="film">
+    <Key>
+      <PropertyRef Name="film_id" />
+    </Key>
+    <Property Name="film_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="release_year" Type="Int16" />
+    <Property Name="language_id" Type="Byte" Nullable="false" />
+    <Property Name="original_language_id" Type="Byte" />
+    <Property Name="rental_duration" Type="Byte" Nullable="false" />
+    <Property Name="rental_rate" Type="Decimal" Nullable="false" Precision="4" Scale="2" />
+    <Property Name="length" Type="Int32" />
+    <Property Name="replacement_cost" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="rating" Type="String" MaxLength="65532" Unicode="true" FixedLength="false" />
+    <Property Name="special_features" Type="String" MaxLength="65531" Unicode="true" FixedLength="false" />
+    <Property Name="last_update" Type="DateTime" Nullable="false" p1:StoreGeneratedPattern="Identity" Precision="0" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="payment_id" />
+    </Key>
+    <Property Name="payment_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="customer_id" Type="Int32" Nullable="false" />
+    <Property Name="staff_id" Type="Byte" Nullable="false" />
+    <Property Name="rental_id" Type="Int32" />
+    <Property Name="amount" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="payment_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="last_update" Type="DateTime" Nullable="false" p1:StoreGeneratedPattern="Identity" Precision="0" />
+    <NavigationProperty Name="rental" Relationship="sakilaModel.fk_payment_rental" FromRole="payment" ToRole="rental" />
+    <NavigationProperty Name="staff" Relationship="sakilaModel.fk_payment_staff" FromRole="payment" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="rental">
+    <Key>
+      <PropertyRef Name="rental_id" />
+    </Key>
+    <Property Name="rental_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="rental_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="inventory_id" Type="Int32" Nullable="false" />
+    <Property Name="customer_id" Type="Int32" Nullable="false" />
+    <Property Name="return_date" Type="DateTime" Precision="0" />
+    <Property Name="staff_id" Type="Byte" Nullable="false" />
+    <Property Name="last_update" Type="DateTime" Nullable="false" p1:StoreGeneratedPattern="Identity" Precision="0" />
+    <NavigationProperty Name="payments" Relationship="sakilaModel.fk_payment_rental" FromRole="rental" ToRole="payment" />
+    <NavigationProperty Name="staff" Relationship="sakilaModel.fk_rental_staff" FromRole="rental" ToRole="staff" />
+  </EntityType>
+  <EntityType Name="staff">
+    <Key>
+      <PropertyRef Name="staff_id" />
+    </Key>
+    <Property Name="staff_id" Type="Byte" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="last_name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="address_id" Type="Int32" Nullable="false" />
+    <Property Name="picture" Type="Binary" MaxLength="65535" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="store_id" Type="Byte" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+    <Property Name="last_update" Type="DateTime" Nullable="false" p1:StoreGeneratedPattern="Identity" Precision="0" />
+    <NavigationProperty Name="payments" Relationship="sakilaModel.fk_payment_staff" FromRole="staff" ToRole="payment" />
+    <NavigationProperty Name="rentals" Relationship="sakilaModel.fk_rental_staff" FromRole="staff" ToRole="rental" />
+  </EntityType>
+  <Association Name="fk_payment_rental">
+    <End Role="rental" Type="sakilaModel.rental" Multiplicity="0..1" />
+    <End Role="payment" Type="sakilaModel.payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rental">
+        <PropertyRef Name="rental_id" />
+      </Principal>
+      <Dependent Role="payment">
+        <PropertyRef Name="rental_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_payment_staff">
+    <End Role="staff" Type="sakilaModel.staff" Multiplicity="1" />
+    <End Role="payment" Type="sakilaModel.payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staff_id" />
+      </Principal>
+      <Dependent Role="payment">
+        <PropertyRef Name="staff_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_rental_staff">
+    <End Role="staff" Type="sakilaModel.staff" Multiplicity="1" />
+    <End Role="rental" Type="sakilaModel.rental" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staff_id" />
+      </Principal>
+      <Dependent Role="rental">
+        <PropertyRef Name="staff_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

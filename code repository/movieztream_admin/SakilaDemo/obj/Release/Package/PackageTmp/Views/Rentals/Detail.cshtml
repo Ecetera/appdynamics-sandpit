@@ -1,0 +1,72 @@
+﻿@model PagedList.IPagedList<Ecetera.AppDynamics.VideoRentalService.SRental>
+
+@{
+    ViewBag.Title = "Rental";
+}
+<h2>Rentals for Customer placeholder</h2>
+
+<table border="1">
+<tr>
+    <th>
+       Rented Date
+    </th>
+    <th>
+       Title
+    </th>
+    <th>
+       Return Date
+    </th>
+    <th>
+       Payments
+    </th> 
+    <th>
+       Refund
+    </th>    
+</tr>
+
+@foreach (var item in Model) 
+{
+    <tr>
+        <td>
+            @Html.Encode(item.rental_date)
+        </td>
+        <td>
+            @Html.Encode(item.Filmtitle)
+        </td>
+        <td>
+            @Html.Encode(item.return_date)
+        </td>                
+    </tr>
+}
+</table>
+
+<div>
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+    of @Model.PageCount
+    &nbsp;
+    @if (Model.HasPreviousPage)
+    {
+        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:<<
+        @Html.Raw("&nbsp;");
+        @:< Prev
+    }
+    &nbsp;
+    @if (Model.HasNextPage)
+    {
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:Next >
+        @Html.Raw("&nbsp;")
+        @:>>
+    }
+</div>

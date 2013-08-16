@@ -1,0 +1,37 @@
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\VideoRentalService.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\VideoRentalService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Release\VideoRentalService.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\obj\Release\VideoRentalService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\VideoRentalService\bin\log4net.xml
+C:\AppDynamics\CS\VideoRentalService\bin\VideoRentalService.dll
+C:\AppDynamics\CS\VideoRentalService\bin\VideoRentalService.pdb
+C:\AppDynamics\CS\VideoRentalService\bin\log4net.dll
+C:\AppDynamics\CS\VideoRentalService\bin\log4net.xml
+C:\AppDynamics\CS\VideoRentalService\obj\Release\VideoRentalService.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS\VideoRentalService\obj\Release\VideoRentalService.dll
+C:\AppDynamics\CS\VideoRentalService\obj\Release\VideoRentalService.pdb
+C:\AppDynamics\CS - Copy\VideoRentalService\bin\VideoRentalService.dll
+C:\AppDynamics\CS - Copy\VideoRentalService\bin\VideoRentalService.pdb
+C:\AppDynamics\CS - Copy\VideoRentalService\bin\log4net.dll
+C:\AppDynamics\CS - Copy\VideoRentalService\bin\log4net.xml
+C:\AppDynamics\CS - Copy\VideoRentalService\obj\Release\VideoRentalService.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS - Copy\VideoRentalService\obj\Release\VideoRentalService.dll
+C:\AppDynamics\CS - Copy\VideoRentalService\obj\Release\VideoRentalService.pdb
+C:\web-services\VideoRentalService\bin\VideoRentalService.dll
+C:\web-services\VideoRentalService\bin\VideoRentalService.pdb
+C:\web-services\VideoRentalService\bin\log4net.dll
+C:\web-services\VideoRentalService\bin\log4net.xml
+C:\web-services\VideoRentalService\obj\Release\VideoRentalService.csprojResolveAssemblyReference.cache
+C:\web-services\VideoRentalService\obj\Release\VideoRentalService.dll
+C:\web-services\VideoRentalService\obj\Release\VideoRentalService.pdb
+C:\code repository\web-services\VideoRentalService\bin\VideoRentalService.dll
+C:\code repository\web-services\VideoRentalService\bin\VideoRentalService.pdb
+C:\code repository\web-services\VideoRentalService\bin\log4net.dll
+C:\code repository\web-services\VideoRentalService\bin\SimulationManager.dll
+C:\code repository\web-services\VideoRentalService\bin\SimulationManager.pdb
+C:\code repository\web-services\VideoRentalService\bin\log4net.xml
+C:\code repository\web-services\VideoRentalService\obj\Release\VideoRentalService.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\VideoRentalService\obj\Release\VideoRentalService.dll
+C:\code repository\web-services\VideoRentalService\obj\Release\VideoRentalService.pdb

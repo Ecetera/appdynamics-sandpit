@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RentalService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/AppDMovies/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/AppDMovies/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/AppDMovies/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VideoRentalService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRentalService_HireMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:HireMovie" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_HireMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HireMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_Refund_InputMessage">
+    <wsdl:part name="parameters" element="tns:Refund" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_Refund_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefundResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_RefundT_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefundT" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_RefundT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefundTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomersByText_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomersByText" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomersByText_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomersByTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomers" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRentals_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentals" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRentals_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPayments_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPayments" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPayments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPaymentsByRental_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsByRental" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPaymentsByRental_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentsByRentalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRentalByPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalByPayment" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRentalByPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalByPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPayment" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetSalesByCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesByCategory" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetSalesByCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesByCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRewardsReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRewardsReport" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_GetRewardsReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRewardsReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_Logon_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logon" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_Logon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_ServiceCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServiceCheck" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_ServiceCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServiceCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_RefundPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefundPayment" />
+  </wsdl:message>
+  <wsdl:message name="IRentalService_RefundPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefundPaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRentalService">
+    <wsdl:operation name="HireMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/HireMovie" message="tns:IRentalService_HireMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/HireMovieResponse" message="tns:IRentalService_HireMovie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Refund">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/Refund" message="tns:IRentalService_Refund_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/RefundResponse" message="tns:IRentalService_Refund_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefundT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/RefundT" message="tns:IRentalService_RefundT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/RefundTResponse" message="tns:IRentalService_RefundT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomersByText">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetCustomersByText" message="tns:IRentalService_GetCustomersByText_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetCustomersByTextResponse" message="tns:IRentalService_GetCustomersByText_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetCustomer" message="tns:IRentalService_GetCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetCustomerResponse" message="tns:IRentalService_GetCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetCustomers" message="tns:IRentalService_GetCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetCustomersResponse" message="tns:IRentalService_GetCustomers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRentals">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetRentals" message="tns:IRentalService_GetRentals_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetRentalsResponse" message="tns:IRentalService_GetRentals_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPayments">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetPayments" message="tns:IRentalService_GetPayments_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetPaymentsResponse" message="tns:IRentalService_GetPayments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPaymentsByRental">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetPaymentsByRental" message="tns:IRentalService_GetPaymentsByRental_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetPaymentsByRentalResponse" message="tns:IRentalService_GetPaymentsByRental_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalByPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetRentalByPayment" message="tns:IRentalService_GetRentalByPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetRentalByPaymentResponse" message="tns:IRentalService_GetRentalByPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetPayment" message="tns:IRentalService_GetPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetPaymentResponse" message="tns:IRentalService_GetPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesByCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetSalesByCategory" message="tns:IRentalService_GetSalesByCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetSalesByCategoryResponse" message="tns:IRentalService_GetSalesByCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRewardsReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/GetRewardsReport" message="tns:IRentalService_GetRewardsReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/GetRewardsReportResponse" message="tns:IRentalService_GetRewardsReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/Logon" message="tns:IRentalService_Logon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/LogonResponse" message="tns:IRentalService_Logon_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ServiceCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/ServiceCheck" message="tns:IRentalService_ServiceCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/ServiceCheckResponse" message="tns:IRentalService_ServiceCheck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefundPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalService/RefundPayment" message="tns:IRentalService_RefundPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalService/RefundPaymentResponse" message="tns:IRentalService_RefundPayment_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRentalService" type="tns:IRentalService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HireMovie">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/HireMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Refund">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/Refund" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundT">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/RefundT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomersByText">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetCustomersByText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomer">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomers">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetCustomers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRentals">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetRentals" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPayments">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetPayments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPaymentsByRental">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetPaymentsByRental" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalByPayment">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetRentalByPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPayment">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesByCategory">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetSalesByCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRewardsReport">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/GetRewardsReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logon">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/Logon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServiceCheck">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/ServiceCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefundPayment">
+      <soap:operation soapAction="http://tempuri.org/IRentalService/RefundPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RentalService">
+    <wsdl:port name="BasicHttpBinding_IRentalService" binding="tns:BasicHttpBinding_IRentalService">
+      <soap:address location="http://localhost/AppDMovies/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

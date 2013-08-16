@@ -1,0 +1,110 @@
+﻿@model PagedList.IPagedList<Ecetera.AppDynamics.VideoRentalService.SCustomer>
+
+@{
+    ViewBag.Title = "CustomerRewards";
+}
+
+<h2>Customers</h2>
+
+@using (Html.BeginForm())
+{
+    <table border="1">
+        <tr>
+            <td>Min monthly purchases:</td>
+            <td>@Html.TextBox("minMonthlyPurchases", ViewBag.CurrentFilterMMP as string) &nbsp;</td>
+        </tr>
+        <tr>
+            <td>Min dollar purchases:</td>
+            <td>@Html.TextBox("minDollarPurchases", ViewBag.CurrentFilterMDP as string) &nbsp;</td>
+        </tr>
+        <tr><td><input type="submit" value="Search" /></td></tr>
+    </table>    
+}
+
+<table border="1">
+<tr>
+    <th></th>
+       <th>
+        @Html.ActionLink("Id", "Index", new { sortOrder=ViewBag.NameSortParm, currentFilter=ViewBag.CurrentFilter })
+    </th>
+    <th>
+        @Html.ActionLink("First Name", "Index", new { sortOrder=ViewBag.NameSortParm, currentFilter=ViewBag.CurrentFilter })
+    </th> 
+    <th>
+        @Html.ActionLink("Last Name", "Index", new { sortOrder=ViewBag.NameSortParm, currentFilter=ViewBag.CurrentFilter })
+    </th>
+    <th>
+        Email
+    </th>
+    <th>
+        Payments
+    </th>
+    <th>
+        Rentals
+    </th>
+</tr>
+
+@foreach (var item in Model) 
+{
+    <tr>
+        <td>            
+            
+        </td>        
+        <td>            
+            @Html.ActionLink(item.customer_id.ToString(), "Details", new { id=item.customer_id})            
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.first_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.last_name)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>        
+        <td>
+            @Html.ActionLink(
+                             "Payments",                             
+                             "Payments",
+                             new {customerid = item.customer_id},null)            
+        </td>        
+        <td>
+            @Html.ActionLink(
+                             "Rentals",                             
+                             "Rentals",
+                             new {customerid = item.customer_id},null)            
+        </td>
+    </tr>
+}
+</table>
+
+<div>
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+    of @Model.PageCount
+    &nbsp;
+    @if (Model.HasPreviousPage)
+    {
+        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilterMMP=ViewBag.CurrentFilterMMP, currentFilterMDP=ViewBag.CurrentFilterMDP })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilterMMP=ViewBag.CurrentFilterMMP, currentFilterMDP=ViewBag.CurrentFilterMDP })
+    }
+    else
+    {
+        @:<<
+        @Html.Raw("&nbsp;");
+        @:< Prev
+    }
+    &nbsp;
+    @if (Model.HasNextPage)
+    {
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilterMMP=ViewBag.CurrentFilterMMP, currentFilterMDP=ViewBag.CurrentFilterMDP })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilterMMP=ViewBag.CurrentFilterMMP, currentFilterMDP=ViewBag.CurrentFilterMDP })
+    }
+    else
+    {
+        @:Next >
+        @Html.Raw("&nbsp;")
+        @:>>
+    }
+</div>

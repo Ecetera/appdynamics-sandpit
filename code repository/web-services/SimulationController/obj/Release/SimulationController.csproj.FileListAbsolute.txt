@@ -1,0 +1,4 @@
+C:\code repository\web-services\SimulationController\bin\Release\SimulationController.dll
+C:\code repository\web-services\SimulationController\bin\Release\SimulationController.pdb
+C:\code repository\web-services\SimulationController\obj\Release\SimulationController.dll
+C:\code repository\web-services\SimulationController\obj\Release\SimulationController.pdb

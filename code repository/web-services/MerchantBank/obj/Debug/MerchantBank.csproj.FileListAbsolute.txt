@@ -1,0 +1,21 @@
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\MerchantBank\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\MerchantBank\bin\Debug\MerchantBank.dll
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\MerchantBank\bin\Debug\MerchantBank.pdb
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\MerchantBank\obj\Debug\MerchantBank.dll
+C:\AppDynamics\WF_WCF_Samples\WCF\Basic\Services\Addressing\CS\MerchantBank\obj\Debug\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\bin\Debug\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\obj\Debug\MerchantBank.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\bin\Debug\log4net.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\bin\Debug\MerchantBank.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\bin\Debug\MerchantBank.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Addressing\CS\MerchantBank\obj\Debug\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Debug\MerchantBank.dll.config
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Debug\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Debug\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Debug\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Debug\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Debug\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Debug\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Debug\MerchantBank.pdb

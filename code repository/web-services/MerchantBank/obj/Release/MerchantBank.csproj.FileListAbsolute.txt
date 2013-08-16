@@ -1,0 +1,40 @@
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Release\MerchantBank.dll.config
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Release\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Release\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Release\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\bin\Release\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Release\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\MerchantBank\obj\Release\MerchantBank.pdb
+C:\AppDynamics\CS\MerchantBank\bin\Release\MerchantBank.dll.config
+C:\AppDynamics\CS\MerchantBank\bin\Release\MerchantBank.dll
+C:\AppDynamics\CS\MerchantBank\bin\Release\MerchantBank.pdb
+C:\AppDynamics\CS\MerchantBank\bin\Release\log4net.dll
+C:\AppDynamics\CS\MerchantBank\bin\Release\log4net.xml
+C:\AppDynamics\CS\MerchantBank\obj\Release\MerchantBank.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS\MerchantBank\obj\Release\MerchantBank.dll
+C:\AppDynamics\CS\MerchantBank\obj\Release\MerchantBank.pdb
+C:\AppDynamics\CS - Copy\MerchantBank\bin\Release\MerchantBank.dll.config
+C:\AppDynamics\CS - Copy\MerchantBank\bin\Release\MerchantBank.dll
+C:\AppDynamics\CS - Copy\MerchantBank\bin\Release\MerchantBank.pdb
+C:\AppDynamics\CS - Copy\MerchantBank\bin\Release\log4net.dll
+C:\AppDynamics\CS - Copy\MerchantBank\bin\Release\log4net.xml
+C:\AppDynamics\CS - Copy\MerchantBank\obj\Release\MerchantBank.csprojResolveAssemblyReference.cache
+C:\AppDynamics\CS - Copy\MerchantBank\obj\Release\MerchantBank.dll
+C:\AppDynamics\CS - Copy\MerchantBank\obj\Release\MerchantBank.pdb
+C:\web-services\MerchantBank\bin\Release\MerchantBank.dll.config
+C:\web-services\MerchantBank\bin\Release\MerchantBank.dll
+C:\web-services\MerchantBank\bin\Release\MerchantBank.pdb
+C:\web-services\MerchantBank\bin\Release\log4net.dll
+C:\web-services\MerchantBank\bin\Release\log4net.xml
+C:\web-services\MerchantBank\obj\Release\MerchantBank.csprojResolveAssemblyReference.cache
+C:\web-services\MerchantBank\obj\Release\MerchantBank.dll
+C:\web-services\MerchantBank\obj\Release\MerchantBank.pdb
+C:\code repository\web-services\MerchantBank\bin\Release\MerchantBank.dll.config
+C:\code repository\web-services\MerchantBank\bin\Release\MerchantBank.dll
+C:\code repository\web-services\MerchantBank\bin\Release\MerchantBank.pdb
+C:\code repository\web-services\MerchantBank\bin\Release\log4net.dll
+C:\code repository\web-services\MerchantBank\bin\Release\log4net.xml
+C:\code repository\web-services\MerchantBank\obj\Release\MerchantBank.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\MerchantBank\obj\Release\MerchantBank.dll
+C:\code repository\web-services\MerchantBank\obj\Release\MerchantBank.pdb

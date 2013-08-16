@@ -1,0 +1,48 @@
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.exe.config
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\SelfHostedCreditCardService.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\MerchantBank.pdb
+C:\AppDynamics\WIPSANDBOX\CS\service\bin\log4net.xml
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Release\ResolveAssemblyReference.cache
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Release\SelfHostedCreditCardService.exe
+C:\AppDynamics\WIPSANDBOX\CS\service\obj\Release\SelfHostedCreditCardService.pdb
+C:\AppDynamics\CS\service\bin\SelfHostedCreditCardService.exe.config
+C:\AppDynamics\CS\service\bin\SelfHostedCreditCardService.exe
+C:\AppDynamics\CS\service\bin\SelfHostedCreditCardService.pdb
+C:\AppDynamics\CS\service\bin\log4net.dll
+C:\AppDynamics\CS\service\bin\MerchantBank.dll
+C:\AppDynamics\CS\service\bin\MerchantBank.pdb
+C:\AppDynamics\CS\service\bin\log4net.xml
+C:\AppDynamics\CS\service\obj\Release\SelfHostedCreditCardService.exe
+C:\AppDynamics\CS\service\obj\Release\SelfHostedCreditCardService.pdb
+C:\AppDynamics\CS - Copy\service\bin\SelfHostedCreditCardService.exe.config
+C:\AppDynamics\CS - Copy\service\bin\SelfHostedCreditCardService.exe
+C:\AppDynamics\CS - Copy\service\bin\SelfHostedCreditCardService.pdb
+C:\AppDynamics\CS - Copy\service\bin\log4net.dll
+C:\AppDynamics\CS - Copy\service\bin\MerchantBank.dll
+C:\AppDynamics\CS - Copy\service\bin\MerchantBank.pdb
+C:\AppDynamics\CS - Copy\service\bin\log4net.xml
+C:\AppDynamics\CS - Copy\service\obj\Release\SelfHostedCreditCardService.exe
+C:\AppDynamics\CS - Copy\service\obj\Release\SelfHostedCreditCardService.pdb
+C:\web-services\service\bin\SelfHostedCreditCardService.exe.config
+C:\web-services\service\bin\SelfHostedCreditCardService.exe
+C:\web-services\service\bin\SelfHostedCreditCardService.pdb
+C:\web-services\service\bin\log4net.dll
+C:\web-services\service\bin\MerchantBank.dll
+C:\web-services\service\bin\MerchantBank.pdb
+C:\web-services\service\bin\log4net.xml
+C:\web-services\service\obj\Release\SelfHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\web-services\service\obj\Release\SelfHostedCreditCardService.exe
+C:\web-services\service\obj\Release\SelfHostedCreditCardService.pdb
+C:\code repository\web-services\service\bin\SelfHostedCreditCardService.exe.config
+C:\code repository\web-services\service\bin\SelfHostedCreditCardService.exe
+C:\code repository\web-services\service\bin\SelfHostedCreditCardService.pdb
+C:\code repository\web-services\service\bin\log4net.dll
+C:\code repository\web-services\service\bin\MerchantBank.dll
+C:\code repository\web-services\service\bin\MerchantBank.pdb
+C:\code repository\web-services\service\bin\log4net.xml
+C:\code repository\web-services\service\obj\Release\SelfHostedCreditCardService.csprojResolveAssemblyReference.cache
+C:\code repository\web-services\service\obj\Release\SelfHostedCreditCardService.exe
+C:\code repository\web-services\service\obj\Release\SelfHostedCreditCardService.pdb
