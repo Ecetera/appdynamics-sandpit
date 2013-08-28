@@ -70,6 +70,11 @@ namespace Ecetera.AppDynamics.Controllers
             var rentals = from r in serviceProxy.GetRentals(customerid)
                            select r;
 
+            
+            if (rentals.ToArray().Length == 0)
+            {
+                throw new Exception("no rentals found for this customer");
+            }
             SCustomer co = serviceProxy.GetCustomer(customerid);
             ViewData["customername"] = co.first_name + " " + co.last_name;
 

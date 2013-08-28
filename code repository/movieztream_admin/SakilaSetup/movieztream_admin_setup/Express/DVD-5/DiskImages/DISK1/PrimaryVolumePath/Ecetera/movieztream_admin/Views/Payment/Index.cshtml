@@ -1,0 +1,79 @@
+﻿@model PagedList.IPagedList<Ecetera.AppDynamics.VideoRentalService.SPayment>
+
+@{
+    ViewBag.Title = "Payment";
+}
+
+<h2>Payment for @ViewData["customername"] & Rental Code: @ViewData["rentalid"]</h2>
+
+<table border="1">
+<tr>
+    <th>
+       Date
+    </th>
+    <th>
+       Amount
+    </th> 
+    <th>
+       Film        
+    </th>
+    <th>
+       Back to Customer rentals
+    </th>
+</tr>
+
+@foreach (var item in Model) 
+{
+    <tr>
+        <td>            
+            
+        </td>        
+        <td>            
+            @Html.ActionLink(item.customer_id.ToString(), "Details", new { id=item.customer_id})            
+        </td>        
+        <td>
+            @Html.Encode(item.payment_date) %>
+        </td>
+        <td>
+            @Html.Encode(item.amount) %>
+        </td>                
+        <td>
+            @Html.Encode(item.filmtitle) %>
+        </td>   
+        <td>
+            @Html.ActionLink("Rentals", "Rentals", new { id = item.customer_id }, new { })
+        </td>             
+    </tr>
+}
+</table>
+
+<div>
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+    of @Model.PageCount
+    &nbsp;
+    @if (Model.HasPreviousPage)
+    {
+        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:<<
+        @Html.Raw("&nbsp;");
+        @:< Prev
+    }
+    &nbsp;
+    @if (Model.HasNextPage)
+    {
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw("&nbsp;");
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:Next >
+        @Html.Raw("&nbsp;")
+        @:>>
+    }
+</div>
