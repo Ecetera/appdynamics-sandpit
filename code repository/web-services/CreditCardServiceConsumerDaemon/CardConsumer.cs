@@ -13,10 +13,27 @@ namespace CreditCardServiceConsumerDaemon
     {
         int CARD_LIST_SIZE = 20;
         string interfaceContractName = "ICreditCardService";
-        
+
         AppDMoviesWSAutoDiscovery disco;
         private static readonly ILog log = LogManager.GetLogger(typeof(CardConsumer));
 
+        public void Bind(string appDynamicsBankIP, string port)
+        {
+            string bindingURI = string.Format("http://{0}:{1}/AppDynamicsBank/CreditCardService?wsdl", appDynamicsBankIP, port);
+            disco = new AppDMoviesWSAutoDiscovery(bindingURI, interfaceContractName);
+            Console.WriteLine(string.Format("Partial auto discovery done, basic http binding done:{0}", bindingURI));
+        }
+
+        public void Start(int timerange1, int timerange2)
+        {
+            string creditcard = RandomCreditCardNumberGenerator.GenerateMasterCardNumber();
+            Random rnd = new Random();
+
+            double amount = GetRandomAmount();
+            //write a method to generate different credit cards
+            ValidateAndChargeCard(creditcard, amount);
+            int interval = rnd.Next(timerange1 * 1000, timerange2 * 1000);
+        }
 
         public void Start(string appDynamicsBankIP, string port, int timerange1, int timerange2)
         {
@@ -40,13 +57,22 @@ namespace CreditCardServiceConsumerDaemon
             }
         }
 
-        private void ValidateAndChargeCard(string creditcard, double amount)
+        public void ValidateAndChargeCard(string creditcard, string expiry, string cvv, double amount)
         {
-            object[] operationParameters = new object[] { creditcard, "1212", "123", amount};
-            Console.WriteLine(string.Format("Authorisation request sent for {0}-{1}-{2}-${3}::", operationParameters[0], operationParameters[1], operationParameters[2], operationParameters[3]));
+            object[] operationParameters = new object[] { creditcard, expiry, cvv, amount };
+            //Console.WriteLine(string.Format("Authorisation request sent for {0}-{1}-{2}-${3}::", operationParameters[0], operationParameters[1], operationParameters[2], operationParameters[3]));
             string operationName = "AuthoriseAndCharge";
             Object result = disco.InvokeMethod(operationName, operationParameters);
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
+        }
+
+        public void ValidateAndChargeCard(string creditcard, double amount)
+        {
+            object[] operationParameters = new object[] { creditcard, "1212", "123", amount };
+            //Console.WriteLine(string.Format("Authorisation request sent for {0}-{1}-{2}-${3}::", operationParameters[0], operationParameters[1], operationParameters[2], operationParameters[3]));
+            string operationName = "AuthoriseAndCharge";
+            Object result = disco.InvokeMethod(operationName, operationParameters);
+            //Console.WriteLine(result);
         }
 
         private double GetRandomAmount()

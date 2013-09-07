@@ -109,7 +109,14 @@ namespace Ecetera.AppDynamics.IISService
 
             SendMessage("a refund message", "REFUND_NOTICE");
 
+            SumOfRefunds(amount);
+
             return result;
+        }
+
+        private void SumOfRefunds(double amount)
+        {
+            
         }
 
         public int Debit(string creditcard, double amount)
